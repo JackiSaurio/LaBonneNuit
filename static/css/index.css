@@ -1,0 +1,136 @@
+#card-header {
+    font-size: 30px;
+    background-color: #4B2637;
+    color: white;
+}
+
+#bottonS {
+    position: absolute;
+    border-radius: 50px;
+    margin-left: 48%;
+    top: 90%;
+}
+
+#op{
+    position: absolute;
+    top:100%;
+    height: 70%;
+    width: 100%;
+    background-color: black;
+}
+
+#marco{
+    position: absolute;
+    margin: 3%;
+    border: 2px solid #7D2941;
+    width: 94%;
+}
+
+#divM{
+    position: absolute;
+    top:160%;
+    height: 70%;
+    width: 100%;
+    display: block;
+    /*background-image: linear-gradient(white, #7D2941);*/
+    background-color: white;
+}
+
+#tit1{
+    margin-top: 5%;
+    margin-left: 40%;
+    font-size: 60px;
+    font-family: "Palatino Linotype";
+    color: white;
+}
+
+#par1{
+    margin-top: 4%;
+    margin-left: 7%;
+    margin-right: 4%;
+    margin-bottom: 7%;
+    align-items: center;
+    font-size: 24px;
+    font-family: "Century Gothic";
+    color: white;
+}
+
+#imMusica{
+    width: 32%;
+    height: 90%;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+#divpar2{
+    width: 40%;
+    position: absolute;
+    left: 50%;
+    top: 19%;
+}
+
+#tit2{
+    margin-left: 9%;
+    margin-top: 10%;
+    font-size: 40px;
+    font-family: "Palatino Linotype";
+}
+
+#par2{
+    margin-top: 11%;
+    align-items: center;
+    font-size: 16px;
+    font-family: "Century Gothic";
+}
+
+.Wrap {
+
+    position: relative;
+
+    margin: 0 auto;
+
+    Ancho: 960;
+
+
+}
+
+header, #footer {
+    width: 100%;
+    height: 30%;
+    float: left;
+}
+
+#pie {
+    background-color: #4B2637;
+    width: 100%;
+    padding-bottom: 2%;
+}
+
+#textopie {
+    color: white;
+    background-color: #4B2637;
+    position: absolute;
+    right: 54%;
+}
+
+#mapa {
+    position: absolute;
+    left: 55%;
+    background-color: #4B2637;
+}
+
+footer {
+    color: white;
+    background-color: #4B2637;
+    position: fixed;
+    bottom: 0;
+    z-index: 999999;
+    width: 100%;
+    height: 55%;
+    padding-top: 1%;
+}
+
+#copy {
+    text-align: center;
+    margin-top: 21%;
+}

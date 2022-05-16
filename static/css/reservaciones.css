@@ -1,0 +1,14 @@
+
+.titulo {
+    text-align: center;
+    font-size: 32px;
+}
+
+#botonEnviar{
+    background-color: #7D2941;
+    border-color: #4B2637;
+    position: absolute;
+    left: 48%;
+}
+
+

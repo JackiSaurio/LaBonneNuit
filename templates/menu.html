@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Especialidades</title>
+</head>
+
+<header class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="/">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{ url_for('reservacion') }}">Haz tu reservación <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{ url_for('menu') }}">Especialidades <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{ url_for('TrabajaConNosotros') }}">Trabaja con nosotros <span
+                            class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<body style="background-color: #4B2637">
+<br>
+<div style="background-color: white" class="container">
+    <br>
+
+    <div class="card bg-dark text-white">
+        <img class="card-img" src="/static/imagenes/comidaMenu.png" alt="Card image">
+        <div class="card-img-overlay">
+            <h3 class="card-title">Los mejores platillos de la casa</h3>
+            <p class="card-text">Te presentamos una recopilación de nuestros platillos más pedidos. </p>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div style="color: #7D2941" class="card border-light mb-3" style="max-width: 18rem;">
+                    <div class="card-header"><b>BACALAO NORUEGO</b></div>
+                    <div class="card-body">
+                        <p class="card-text">Fondue de puerro, espárragos, fiddleheads, hongos ostra, limón meyer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div style="color: #7D2941" class="card border-light mb-3" style="max-width: 18rem;">
+                    <div class="card-header"><b>GUISANTES</b></div>
+                    <div class="card-body">
+                        <p class="card-text">Leche de coco, albahaca tailandesa, anacardos especiados.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div style="color: #7D2941" class="card border-light mb-3" style="max-width: 18rem;">
+                    <div class="card-header"><b>CARNE DE CERDO CONFITADA</b></div>
+                    <div class="card-body">
+                        <p class="card-text">Cerezas de murray, berros, vinagreta de suero de leche, chicharrones.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <br>
+
+    <div class="card bg-dark text-white">
+        <img class="card-img" src="/static/imagenes/bebidaMenu.png" alt="Card image">
+        <div class="card-img-overlay">
+            <h2 class="card-title">Las mejores bebidas de la casa</h2>
+            <p style="font-size: 20" class="card-text">Te presentamos una recopilación de nuestras bebidas más
+                pedidas. </p>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div style="color: #7D2941" class="card border-light mb-3" style="max-width: 18rem;">
+                    <div class="card-header"><b>RED LOTUS</b></div>
+                    <div class="card-body">
+                        <p class="card-text">Variedad de sabores dulces y exóticos y la fuera del vodka..</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div style="color: #7D2941" class="card border-light mb-3" style="max-width: 18rem;">
+                    <div class="card-header"><b>CRANBERRY KISS</b></div>
+                    <div class="card-body">
+                        <p class="card-text">Combinación de tequila y licores bastante dulces.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div style="color: #7D2941" class="card border-light mb-3" style="max-width: 18rem;">
+                    <div class="card-header"><b>SEX ON THE BEACH</b></div>
+                    <div class="card-body">
+                        <p class="card-text">Uno de los más pedidos por las mujeres por su combinación sugerente y
+                            fresca.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
